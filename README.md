@@ -27,25 +27,21 @@ Para Adicionar(CREATE) e Atualizar(UPDATE) um Cliente usa-se o seguinte corpo:
 Para Adicionar(CREATE) e Atualizar(UPDATE) um Produto usa-se o seguinte corpo:
 
 ```bash
-{
   {
   "descricao": "string",
   "preco": 0,
   "ativo": true
   }
-}
 ```
 
 Para Adicionar(CREATE) e Atualizar(UPDATE) uma Venda usa-se o seguinte corpo:
 
 ```bash
-{
   {
   "quantidade": 0,
   "dataVenda": "2021-03-02T19:02:45.061Z",
   "idCliente": 0,
   "idProduto": 0
-}
 }
 ```
 
