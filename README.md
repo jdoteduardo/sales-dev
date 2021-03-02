@@ -51,8 +51,11 @@ Para Adicionar(CREATE) e Atualizar(UPDATE) uma Venda usa-se o seguinte corpo:
 
 ```bash
 https://salesdev-api.azurewebsites.net/api/clientes/1
+https://salesdev-api.azurewebsites.net/api/produtos/1
+https://salesdev-api.azurewebsites.net/api/vendas/1
 ```
-Para Atualizar(UPDATE), Obter Cliente(READ) e Cancelar(DELETE).
+Para Atualizar(UPDATE), Obter um ou todos(READ) e Cancelar(DELETE).
+
 
 
 OBS: Vendas só possui o método Adicionar e Obter um.
